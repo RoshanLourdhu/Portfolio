@@ -15,15 +15,16 @@ export const profileData: ProfileData = {
   contact: {
     email: 'roshanbtech2023@gmail.com',
     github: 'https://github.com/RoshanLourdhu',
-    linkedin: '', // Can be supplied by the user; link will hide gracefully if empty
-    location: 'India',
+    linkedin: 'https://www.linkedin.com/in/roshan-l',
+    location: 'Hosur / Bangalore, India',
   },
   resume: {
     filePath: '/resume.pdf',
     fileName: 'Roshan_L_Resume.pdf',
-    lastUpdated: 'March 2026',
+    lastUpdated: 'October 2026',
     available: true,
   },
+
   about: {
     lead:
       'I am an engineering student specializing in Data Analytics, with focused practical experience across Python development, applied machine learning, computer vision, and backend APIs.',
@@ -60,15 +61,16 @@ export const profileData: ProfileData = {
   },
   education: [
     {
-      institution: 'University / Institute Name', // Editable
+      institution: 'Alliance University',
       degree: 'Bachelor of Technology (B.Tech)',
-      specialization: 'Computer Science / Data Analytics',
+      specialization: 'Information Technology / Data Analytics',
       period: '2023 – 2027',
-      location: 'India',
+      location: 'Bangalore, India',
       notes: [
-        'Specialization coursework in Data Analytics, Database Management Systems, and Machine Learning.',
-        'Active participant in technical symposiums, paper presentations, and hackathons.',
+        'Coursework in Data Analytics, Database Management Systems, Machine Learning, and Software Engineering.',
+        'Active participant in technical symposiums, research conferences, and national hackathons.',
       ],
     },
   ],
+
 };
